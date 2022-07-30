@@ -1,38 +1,95 @@
-.App {
-  text-align: center;
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Poppins;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navbar{
+  height: 4em;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1) ;
   display: flex;
-  flex-direction: column;
+  align-items: center;
+  
+}
+.logoPic{
+  margin-left: 3em;
+}
+.collagePic{
+  width: 70vw;
+}
+.collage{
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-top: 3em;
+}
+.introduction{
+  margin: 3em;
+}
+.hero-header{
+  margin-bottom: 0.5em;
+  font-size: 36px;
+  font-weight: 600;
+}
+.node{
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 20px;
+  overflow-x: auto;
+  margin-left: 3em;
+}
+.main-section{
+  width: 175px;
+    font-size: 12px;
+    flex: 0 0 auto;         /* ADD */
+    display: flex;          /* ADD */
+    flex-direction: column; /* ADD */
+    position: relative;
 }
 
-.App-link {
-  color: #61dafb;
+
+.badge{
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  background-color: white;
+  padding: 5px 7px;
+  border-radius: 2px;
+  font-weight: bold;
+}
+.rating, .label, .price-tag{
+  margin-bottom: 3px;
+}
+.rating-num, .rating-place{
+  color: #918E9B;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.rating{
+  
+  width: 175px;
 }
+.star-pic{
+  width: 14px;
+  height: 14px;
+}
+.profile-pic{
+  width: 176px;
+  height: 235px;
+  border-radius: 9px;
+}
+.price-tag{
+  display: flex;
+  flex-direction: row;
+}
+
+.label{
+  font-weight: 300;
+}
+.price-tag{
+  font-weight: 600;
+}
+.per-person{
+  font-weight: 300;
+}
+
+
+
